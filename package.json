@@ -1,0 +1,23 @@
+{
+  "name": "ffo-poll-bot",
+  "version": "1.0.0",
+  "description": "Simple poll managment bot developed for ffo server",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcherTheReal/poll-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcherTheReal/poll-bot/issues"
+  },
+  "homepage": "https://github.com/ArcherTheReal/poll-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  }
+}
