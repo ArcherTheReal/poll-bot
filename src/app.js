@@ -141,7 +141,12 @@ client.on("interactionCreate", async (interaction) => {
               }
               const embed = new discord.EmbedBuilder()
                 .setColor("#0099ff")
-                .setTitle("Random poll #" + pollnumber.pollnumber)
+                .setTitle(
+                  "Random poll #" +
+                    pollnumber.pollnumber +
+                    "\n\n" +
+                    result.question
+                )
                 .setAuthor({
                   name: user.globalName,
                   iconURL: user.avatarURL(),
